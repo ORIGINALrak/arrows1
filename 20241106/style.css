@@ -1,0 +1,51 @@
+body{
+    margin: auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nyilak>button {
+    background-color: grey;
+    border: 1px solid darkgray;
+}
+.start{
+    background-color: green;
+    color: white;
+}
+.stop{
+    background-color: red;
+    color: white;
+}
+
+.nyilak {
+    display: grid;
+    text-align: center;
+    padding: 1%;
+    gap: 3px;
+}
+
+.gombok{
+    width:  10%;
+    align-items: center;
+    text-align: center;
+    padding: 1%;
+}
+.fel {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
+.bal, .le, .jobbra{
+    grid-row: 2;
+}
+
+.kijelzo{
+    margin-top: 25%;
+    border: 3px solid black;
+    padding: 1%;
+}
+

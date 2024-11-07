@@ -15,6 +15,7 @@ body{
     width: 60px;
     height: 60px;
     font-size: 30px;
+    border-radius: 10px;
 }
 .start{
     background-color: green;
@@ -43,7 +44,7 @@ body{
     border: 1px solid black;
     border-radius: 10px;
     width: auto;
-    height: 25px;
+    height: 30px;
     cursor: pointer;
 }
 .fel {
@@ -55,10 +56,9 @@ body{
 }
 
 .kijelzo{
-    margin-top: 25%;
+    margin-top: 20%;
     border: 3px solid black;
     padding: 1%;
-
 }
 
 .start:hover{
